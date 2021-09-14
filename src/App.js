@@ -1,11 +1,15 @@
 import "./styles.css";
 import { useState } from "react";
 var emojiDictionary = {
-  "😀": "Smiling",
+   "😀": "Smiling",
   "😅 ": "Face with Sweat",
   "😑": "Sad",
   "🧠": "Brain",
+  "😂": "Laughing",
+  "😇": "Blessed",
   "👶": "Baby",
+  "🤩": "Excited",
+  "😞": "Sorry",
   "❤️": "heart"
 };
 var emojiweKnow = Object.keys(emojiDictionary);
